@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+
+  front-container:
+    build: .
+    ports:
+      - 3002:3002
